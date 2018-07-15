@@ -1,4 +1,4 @@
 spring:
   data:
     mongodb:
-      uri: c5102b668045074dcccc929c41ca4519abfb3c75b4bcd155200be1ebffb889a9af9abf9c632fea4a7a9f6aa965107cc7fbcdad280e6dae14313efeb5e64794db
+      uri: {cipher}c5102b668045074dcccc929c41ca4519abfb3c75b4bcd155200be1ebffb889a9af9abf9c632fea4a7a9f6aa965107cc7fbcdad280e6dae14313efeb5e64794db
