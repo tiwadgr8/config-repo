@@ -1,0 +1,15 @@
+zuul:
+  routes:
+    stock-service:
+      path : /stocks/**
+      serviceId: stock-service
+    stock-db:
+      path : /stockdata/**
+      serviceId: stock-db
+  prefix: /api
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
