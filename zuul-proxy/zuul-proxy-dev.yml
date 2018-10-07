@@ -6,6 +6,9 @@ zuul:
     stock-db:
       path : /stockdata/**
       serviceId: stock-db
+    image-service:
+      path : /image/**
+      serviceId: image-service
   prefix: /api
 
 management:
