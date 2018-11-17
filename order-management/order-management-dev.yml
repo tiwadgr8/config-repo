@@ -1,0 +1,14 @@
+spring:
+  data:
+    mongodb:
+      uri: "mongodb://tiwarri123:typhoon#2206@cluster0-shard-00-00-fm8nd.mongodb.net:27017,cluster0-shard-00-01-fm8nd.mongodb.net:27017,cluster0-shard-00-02-fm8nd.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true"
+
+
+security:
+  oauth2:
+    resource:
+      token-info-uri: http://localhost:8080/oauth/check_token
+    client:
+      client-id: client1
+      client-secret: client1pwd
+      user-authorization-uri: http://localhost:8080/oauth/authorize
