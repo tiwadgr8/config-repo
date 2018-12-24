@@ -14,4 +14,4 @@ security:
       user-authorization-uri: http://localhost:8080/oauth/authorize
 
 default:
-  distanceInKM:5
+  distanceInKM: 5
