@@ -13,4 +13,5 @@ security:
       client-secret: client1pwd
       user-authorization-uri: http://localhost:8080/oauth/authorize
 
-default.distanceInKM:5
+default:
+  distanceInKM:5
