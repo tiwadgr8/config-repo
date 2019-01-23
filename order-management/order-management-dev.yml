@@ -12,3 +12,6 @@ security:
       client-id: client1
       client-secret: client1pwd
       user-authorization-uri: http://103.67.236.142:8080/oauth/authorize
+
+default:
+  distanceInKM: 5
