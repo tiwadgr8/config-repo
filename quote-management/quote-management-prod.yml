@@ -1,1 +1,17 @@
+spring:
+  data:
+    mongodb:
+      uri: '{cipher}5e9d35d8a985f308ed6c80b76a99445e447e45832bd622c45fdf9a7f166d2f11ea9a406fe12309b198333ce7403493bc57e044c9ca374adc026ca2846568d8037a3c5c6310e6ffd494ece3fe04ed2d885ee94e057125393223d77f18c48c64a0c7fbcc56a078f80465ed51bcdb57a1a0569119647aaa0a2be86ba08174678e28ac71d48b5e4f2070eb6f3b2e2c2e9d0618d9f78485c3df2f44a525b5878ffd4039a9d12be603d567a08d628db204c51da3c11956964b23ce9e6111e909d812bff435dda8ee7a7d211660fb4ef095fc3621ee1abb80eea324a7760da845033dbf55267af4c11c64d709c7188afbcc2abd36ff65cd80f1ded64306a07f0571330d6adc9c21ad14e1623d49e3a87bb5b106'
 
+
+security:
+  oauth2:
+    resource:
+      token-info-uri: http://103.67.236.142:8080/oauth/check_token
+    client:
+      client-id: client1
+      client-secret: client1pwd
+      user-authorization-uri: http://103.67.236.142:8080/oauth/authorize
+
+default:
+  distanceInKM: 5
