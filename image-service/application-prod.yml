@@ -1,1 +1,7 @@
-
+address:  '{cipher}1ea33157340208af100a076db21450f8636f8cd1fcd6f08e21914163b4bc7164fb361a66a14b0db86d009f28bf077b5f99c625064c9bdca254a3adc526bb26b695a218f3a9f70ae53db28c600a0031938ab941fc3a283086da8cf08535373c1c1a598e645005e2d90a352b50eb639c257340ffde716f3fa1dce400badcf07433'
+database: mycarenest
+spring:
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
