@@ -5,11 +5,10 @@ spring:
 security:
   oauth2:
     resource:
-      token-info-uri: ""
+      token-info-uri: http://103.67.236.142:8080/oauth/check_token
     client:
-      client-id: '{cipher}ab56c6c7573c430881179f89569dad8062445a304791c28837afb1f72363b1ad'
-      client-secret: '{cipher}39f2d590ece051a7bcb27cf791e6856714612de107dac3305e34a8e77538e200'
-      user-authorization-uri: '{cipher}2b36dc513215cc94dea8fe63f4790b1bcddd052e8cc5ea96a30f1293216469e210a6b727759368c1bc8faf7cc9831b70c3b23fd9439f2c8227cf48c267ae11c2' 
-
+      client-id: client1
+      client-secret: client1pwd
+      user-authorization-uri: http://103.67.236.142:8080/oauth/authorize
 default:
   distanceInKM: 5
