@@ -1,11 +1,11 @@
 spring:
   data:
     mongodb:
-      uri: '{cipher}763f50139d516c8e8f2e9996925ed709febe8947ac500d18a95912e6d613f7c18c9f11c464e8fe952c24df190ce7d27b85a05622808f7f6792560f23bdc52d096a84ef2efbbfc87ea9c5b2f89697f18cc4b67e9aa948263fde6daf3d8ee833e5559c6323c0ce93fcb6135d2849711ac5df4d319439eb1a21b3c43a8f1d494601'
+      uri: "mongodb://prodMyCarenestReadWrite:#2801Y2kcompProd#MyCarenestReadWrite1082#@103.67.236.142:27017/mycarenest?retryWrites=true"
 security:
   oauth2:
     resource:
-      token-info-uri: '{cipher}cdd47224066a51c6bc9e696171c52d5b76a55219dad64c70cabc39eb9ae4a400ef972e8e24715daf84befc3198d94dee687a161dc6dca8dc4af297b8f8f01128'
+      token-info-uri: ""
     client:
       client-id: '{cipher}ab56c6c7573c430881179f89569dad8062445a304791c28837afb1f72363b1ad'
       client-secret: '{cipher}39f2d590ece051a7bcb27cf791e6856714612de107dac3305e34a8e77538e200'
