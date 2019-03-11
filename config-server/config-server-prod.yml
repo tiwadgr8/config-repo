@@ -7,3 +7,6 @@ eureka:
 
   instance:
     hostname: 103.67.236.142
+
+encrypt:
+  key: ABCDEFGHIJKLMNOPQRSTUVWXYZ
