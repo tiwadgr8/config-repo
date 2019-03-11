@@ -1,0 +1,9 @@
+eureka:
+  client:
+     service-url:
+        defaultZone: http://103.67.236.142:8762/eureka
+     register-with-eureka: true
+     fetch-registry: false
+
+  instance:
+    hostname: 103.67.236.142
