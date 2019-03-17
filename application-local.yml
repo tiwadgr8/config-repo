@@ -4,10 +4,10 @@ eureka:
         defaultZone: http://localhost:8761/eureka
      register-with-eureka: true
      fetch-registry: false
-
   instance:
     hostname: localhost
-
+  environment: local
+  datacenter: Dev DC
 
 management:
   endpoints:
