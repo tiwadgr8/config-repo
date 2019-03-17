@@ -8,8 +8,8 @@ eureka:
   instance:
     hostname: localhost
 
-#spring:
-#  security:
-#    user:
-#      name: mycarenest
-#      password: mycarenest
+spring:
+  security:
+    user:
+      name: mycarenest
+      password: mycarenest
