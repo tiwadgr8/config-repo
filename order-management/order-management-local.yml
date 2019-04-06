@@ -11,11 +11,11 @@ spring:
 security:
   oauth2:
     resource:
-      token-info-uri: http://103.67.236.142:8080/oauth/check_token
+      token-info-uri: http://localhost:8080/oauth/check_token
     client:
       client-id: client1
       client-secret: client1pwd
-      user-authorization-uri: http://103.67.236.142:8080/oauth/authorize
+      user-authorization-uri: http://localhost:8080/oauth/authorize
 
 default:
   distanceInKM: 5

@@ -10,7 +10,7 @@ spring:
     name: inventory-service
   data:
     mongodb:
-      uri: "mongodb://prodMyCarenestReadWrite:#2801Y2kcompProd#MyCarenestReadWrite1082#@103.67.236.142:27017/mycarenest?retryWrites=true"
+      uri: "mongodb://tiwarri123:typhoon#2206@cluster0-shard-00-00-fm8nd.mongodb.net:27017,cluster0-shard-00-01-fm8nd.mongodb.net:27017,cluster0-shard-00-02-fm8nd.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true"
 logging:
   level:
     org.springframework.data.mongodb.core.MongoTemplate: DEBUG

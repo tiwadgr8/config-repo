@@ -1,0 +1,34 @@
+server:
+  port: 9008
+
+spring:
+  application:
+    name: notification-service
+  data:
+    mongodb:
+      uri: "mongodb://tiwarri123:typhoon#2206@cluster0-shard-00-00-fm8nd.mongodb.net:27017,cluster0-shard-00-01-fm8nd.mongodb.net:27017,cluster0-shard-00-02-fm8nd.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true"
+    
+  mail:
+    host: mail.mycarenest.com
+    password: 2018@Mycarenest@1082
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          ssl:
+            trust: mail.mycarenest.com
+          starttls:
+            enable: true
+    username: noreply@mycarenest.com
+    
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+        
+data:
+  from: from
+  to: tooo
