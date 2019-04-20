@@ -1,0 +1,34 @@
+ server:
+  port: 9008
+
+spring:
+  application:
+    name: notification-service
+  data:
+    mongodb:
+      uri: "mongodb://prodMyCarenestReadWrite:#2801Y2kcompProd#MyCarenestReadWrite1082#@103.67.236.142:27017/mycarenest?retryWrites=true"
+    
+  mail:
+    host: mail.mycarenest.com
+    password: 2018@Mycarenest@1082
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          ssl:
+            trust: mail.mycarenest.com
+          starttls:
+            enable: true
+    username: noreply@mycarenest.com
+    
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+        
+data:
+  from: from
+  to: tooo
