@@ -1,3 +1,5 @@
+server:
+  port: 9004
 address: "mongodb://prodMyCarenestReadWrite:#2801Y2kcompProd#MyCarenestReadWrite1082#@103.67.236.142:27017/mycarenest?retryWrites=true"
 database: mycarenest
 spring:
@@ -5,3 +7,4 @@ spring:
     multipart:
       max-file-size: 100MB
       max-request-size: 100MB
+      
