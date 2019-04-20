@@ -1,0 +1,20 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+server:
+  port: 9003
+spring:
+  application:
+    name: inventory-service
+  data:
+    mongodb:
+      uri: "mongodb://prodMyCarenestReadWrite:#2801Y2kcompProd#MyCarenestReadWrite1082#@103.67.236.142:27017/mycarenest?retryWrites=true"
+logging:
+  level:
+    org.springframework.data.mongodb.core.MongoTemplate: DEBUG
+    
+defaultPageIndex: 0
+defaultPageSize: 2
+defaultPharmacyPageSize: 10
