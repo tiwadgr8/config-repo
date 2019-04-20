@@ -1,9 +1,5 @@
-eureka:
-  client:
-     service-url:
-        defaultZone: http://103.67.236.142:8761/eureka
-     register-with-eureka: true
-     fetch-registry: false
-
-  instance:
-    hostname: 103.67.236.142
+spring:
+  security:
+    user:
+      name: mycarenest
+      password: mycarenest
