@@ -1,6 +1,6 @@
 server:
   port: 8761
-  
+
 eureka:
   client:
-    fetch-registry: true
+    fetch-registry: false
